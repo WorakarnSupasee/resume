@@ -106,7 +106,7 @@
         <div class="grid grid-cols-5 gap-5 justify-items-center content-center">
           <!-- eslint-disable -->
           <div class="w-full h-full rounded bg-[#323030] py-4 my-4 content-center" v-for="item in skillList">
-            <nuxt-img :src="item.image" alt="" class="w-[80px] h-[80px] mx-auto" />
+            <img :src="item.image" alt="" class="w-[80px] h-[80px] mx-auto">
             <p class="text-center mt-2 font-medium">{{ item.name }}</p>
           </div>
         </div>
