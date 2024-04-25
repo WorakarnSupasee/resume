@@ -5,8 +5,6 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   modules: ['@nuxtjs/color-mode', '@nuxtjs/tailwindcss',],
   vite: {
-    plugins: [svgLoader({
-      defaultImport: 'raw',
-    })]
+    plugins: [svgLoader()]
   }
 })
