@@ -24,7 +24,8 @@ jobs:
     - name: Install & Generate 🔧
       run: |
         yarn install
-        yarn run generate
+        yarn build
+        yarn generate
       env:
         NUXT_APP_BASE_URL: ${{ vars.NUXT_APP_BASE_URL  }}
 
