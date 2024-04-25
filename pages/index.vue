@@ -106,7 +106,7 @@
         <div class="grid grid-cols-5 gap-5 justify-items-center content-center">
           <!-- eslint-disable -->
           <div class="w-full h-full rounded bg-[#323030] py-4 my-4 content-center" v-for="item in skillList">
-            <img :src="item.image" alt="" class="w-[80px] h-[80px] mx-auto">
+            <img :src="item.image" :alt="item.image" class="w-[80px] h-[80px] mx-auto">
             <p class="text-center mt-2 font-medium">{{ item.name }}</p>
           </div>
         </div>
@@ -163,15 +163,15 @@
 
 <script setup lang="ts">
 
-const skillList = ref([{ name: 'HTML', image: '../icon/HTML.svg' },
-{ name: 'Javascript', image: '../icon/javascript.svg' },
-{ name: 'Css', image: '../icon/Css.svg' },
-{ name: 'Tailwin Css', image: '../icon/tailwind-css.svg' },
-{ name: 'VueJs', image: '../icon/vue.svg' },
-{ name: 'NuxtJs', image: '../icon/Nuxt.svg' },
-{ name: 'Figma', image: '../icon/Figma.svg' },
-{ name: 'Gitlab', image: '../icon/GitLab.svg' },
-{ name: 'Postman', image: '../icon/Postman.svg' },
+const skillList = ref([{ name: 'HTML', image: '/icon/HTML.svg' },
+{ name: 'Javascript', image: '/icon/javascript.svg' },
+{ name: 'Css', image: '/icon/Css.svg' },
+{ name: 'Tailwin Css', image: '/icon/tailwind-css.svg' },
+{ name: 'VueJs', image: '/icon/vue.svg' },
+{ name: 'NuxtJs', image: '/icon/Nuxt.svg' },
+{ name: 'Figma', image: '/icon/Figma.svg' },
+{ name: 'Gitlab', image: '/icon/GitLab.svg' },
+{ name: 'Postman', image: '/icon/Postman.svg' },
 { name: 'Visual Studio Code', image: '/icon/vs-code.svg' }])
 
 const contactList = ref([{ name: 'Facebook', link: "https://www.facebook.com/pee.golden" },
