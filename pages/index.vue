@@ -37,8 +37,8 @@
           <p class="mt-2" ref="education">Email: worakarn.supa@gmail.com</p>
         </div>
       </div>
-      <div class="mt-32 text-start">
-        <h2 class="text-3xl text-[#FE805D] mb-12 text-center">EDUCATION</h2>
+      <div class="mt-12 md:mt-32 text-start">
+        <h2 class="text-3xl text-[#FE805D] mb-3 md:mb-12 text-center">EDUCATION</h2>
         <div class="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
           <div class="flex md:contents flex-row-reverse">
             <div class="relative p-4 mb-6 col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
@@ -77,8 +77,8 @@
         </div>
       </div>
 
-      <div class="mt-32 text-start">
-        <h2 class="text-3xl text-[#FE805D]  mb-12 text-center">EXPERIENCE</h2>
+      <div class="mt-5 md:mt-32 text-start">
+        <h2 class="text-3xl text-[#FE805D] mb-3 md:mb-12 text-center">EXPERIENCE</h2>
         <div class="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
           <div class="flex md:contents flex-row-reverse">
             <div class="relative p-4 mb-6 col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
@@ -103,7 +103,7 @@
 
       <div class="mt-32 text-start">
         <h2 class="text-3xl text-[#FE805D]  mb-12 text-center" ref="skill">SKILL</h2>
-        <div class="grid grid-cols-4 md:grid-cols-5 gap-5 justify-items-center content-center">
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-5 justify-items-center content-center">
           <!-- eslint-disable -->
           <div class="w-full h-full rounded bg-[#323030] py-4 my-4 px-2 content-center" v-for="item in skillList">
             <nuxt-img :src="item.image" alt="" class="w-[80px] h-[80px] mx-auto"/>
