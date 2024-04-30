@@ -2,7 +2,7 @@
   <div>
     <header class="px-10 pt-10 md:fixed top-0 bg-[#17161C] w-full z-10">
       <nav class="hidden md:flex">
-        <div class="w-2/4">
+        <div class="md:w-2/4">
           <p class="text-2xl">Worakarn Supasee</p>
         </div>
         <div class="w-2/4 flex justify-between">
@@ -15,8 +15,8 @@
       </nav>
       <hr class="hidden md:flex mt-8" />
     </header>
-    <div class="px-5 md:px-15 lg:px-40">
-      <div class="md:flex mt-0 pt-0 md:mt-12 md:pt-24">
+    <div class="px-0">
+      <div class="md:flex mt-0 pt-0 md:mt-12 md:pt-24 px-5 md:px-15 lg:px-40">
         <div class="md:w-2/4 flex justify-center">
           <img src="/Pea.JPG" alt="" class="max-w-xs max-h-xs object-cover">
         </div>
@@ -37,7 +37,8 @@
           <p class="mt-2" ref="education">Email: worakarn.supa@gmail.com</p>
         </div>
       </div>
-      <div class="mt-12 md:mt-32 text-start">
+      <div class="mt-12 md:mt-32 pt-5 pb-5 px-5 md:px-15 lg:px-40 text-start bg-fixed"
+      style="background-image: linear-gradient(rgba(23, 22, 28, 0.5), rgba(23, 22, 28, 0.5)), url('/test.jpg'); background-size: cover;">
         <h2 class="text-3xl text-[#FE805D] mb-3 md:mb-12 text-center">EDUCATION</h2>
         <div class="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
           <div class="flex md:contents flex-row-reverse">
@@ -77,7 +78,7 @@
         </div>
       </div>
 
-      <div class="mt-5 md:mt-32 text-start">
+      <div class="pt-5 md:pt-32 pb-5 text-start px-5 md:px-15 lg:px-40" style="background-color: #1F222F;">
         <h2 class="text-3xl text-[#FE805D] mb-3 md:mb-12 text-center">EXPERIENCE</h2>
         <div class="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
           <div class="flex md:contents flex-row-reverse">
@@ -101,7 +102,7 @@
         </div>
       </div>
 
-      <div class="mt-32 text-start">
+      <div class="pt-5 md:pt-32 pb-20 text-start px-5 md:px-15 lg:px-40" style="background-color: #1F222F;">
         <h2 class="text-3xl text-[#FE805D]  mb-12 text-center" ref="skill">SKILL</h2>
         <div class="grid grid-cols-2 md:grid-cols-5 gap-5 justify-items-center content-center">
           <!-- eslint-disable -->
@@ -112,7 +113,7 @@
         </div>
       </div>
 
-      <div class="mt-32 text-start">
+      <div class="mt-12 text-start px-5 md:px-15 lg:px-40">
         <h2 class="text-3xl text-[#FE805D]  mb-12 text-center" ref="work">RECENT WORKS</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-items-center">
 
@@ -134,7 +135,7 @@
         </div>
       </div>
 
-      <div class="mt-32 text-start mb-20">
+      <div class="mt-32 text-start mb-20 px-5 md:px-15 lg:px-40">
         <h2 class="text-3xl text-[#FE805D]  mb-12 text-center" ref="contact">CONTACT</h2>
         <div class="grid grid-cols-2 gap-4 justify-items-center">
           <div
