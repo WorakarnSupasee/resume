@@ -18,7 +18,7 @@
     <div class="px-0">
       <div class="md:flex mt-0 pt-0 md:mt-12 md:pt-24 px-5 md:px-15 lg:px-40">
         <div class="md:w-2/4 flex justify-center">
-          <img src="/Pea2.JPG" alt="" class="max-w-xs max-h-full object-cover rounded-lg">
+          <img src="/Pea.JPG" alt="" class="max-w-xs max-h-full object-cover rounded-lg">
         </div>
         <div class="md:w-2/4">
           <p class="mb-1 md:mb-5 text-[#FE805D] text-4xl md:text-6xl mt-2 md:mt-0">Worakarn Supasee</p>
