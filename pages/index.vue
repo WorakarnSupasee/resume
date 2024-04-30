@@ -1,7 +1,7 @@
 <template>
   <div>
-    <header class="px-10 pt-10 fixed top-0 bg-[#17161C] w-full z-10">
-      <nav class="flex">
+    <header class="px-10 pt-10 md:fixed top-0 bg-[#17161C] w-full z-10">
+      <nav class="hidden md:flex">
         <div class="w-2/4">
           <p class="text-2xl">Worakarn Supasee</p>
         </div>
@@ -13,17 +13,17 @@
           <a class="cursor-pointer hover:text-[#FE805D]" @click="goto(contact)">Contact</a>
         </div>
       </nav>
-      <hr class="mt-8" />
+      <hr class="hidden md:flex mt-8" />
     </header>
-    <div class="px-40">
-      <div class="flex mt-12 pt-24">
-        <div class="w-2/4 flex justify-center">
+    <div class="px-5 md:px-15 lg:px-40">
+      <div class="md:flex mt-0 pt-0 md:mt-12 md:pt-24">
+        <div class="md:w-2/4 flex justify-center">
           <img src="/Pea.JPG" alt="" class="max-w-xs max-h-xs object-cover">
         </div>
-        <div class="w-2/4 ">
-          <p class="mb-5 text-[#FE805D] text-6xl">Worakarn Supasee</p>
+        <div class="md:w-2/4">
+          <p class="mb-1 md:mb-5 text-[#FE805D] text-4xl md:text-6xl mt-2 md:mt-0">Worakarn Supasee</p>
           <p class="text-2xl">Software Engineer</p>
-          <p class="mt-10 text-xl text-[#FE805D]" ref="about">"Hi! I'm Pea"</p>
+          <p class="mt-2 md:mt-10 text-xl text-[#FE805D]" ref="about">"Hi! I'm Pea"</p>
           <p>I recently graduated from Mae Fah Luang University with a degree in Software Engineering.
             My primary interest lies in frontend development, and I have gained practical experience through a
             three-month
@@ -103,25 +103,18 @@
 
       <div class="mt-32 text-start">
         <h2 class="text-3xl text-[#FE805D]  mb-12 text-center" ref="skill">SKILL</h2>
-        <div class="grid grid-cols-5 gap-5 justify-items-center content-center">
+        <div class="grid grid-cols-4 md:grid-cols-5 gap-5 justify-items-center content-center">
           <!-- eslint-disable -->
-          <div class="w-full h-full rounded bg-[#323030] py-4 my-4 content-center" v-for="item in skillList">
+          <div class="w-full h-full rounded bg-[#323030] py-4 my-4 px-2 content-center" v-for="item in skillList">
             <nuxt-img :src="item.image" alt="" class="w-[80px] h-[80px] mx-auto"/>
-            <p class="text-center mt-2 font-medium">{{ item.name }}</p>
+            <p class="truncate text-center mt-2 font-medium">{{ item.name }}</p>
           </div>
         </div>
       </div>
 
       <div class="mt-32 text-start">
         <h2 class="text-3xl text-[#FE805D]  mb-12 text-center" ref="work">RECENT WORKS</h2>
-        <div class="grid grid-cols-3 justify-items-center">
-
-          <!-- <div class="w-[326px] h-[326px] rounded bg-[#323030] my-4">
-          <img src="https://kousikaganesan.github.io/_nuxt/img/840cef6.jpeg" alt=""
-            class="w-[326px] h-[226px] object-cover">
-          <p class="text-start mt-2 font-bold ml-5 text-xl">Title</p>
-          <p class="text-start font-base ml-5">Sub Title</p>
-        </div> -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-items-center">
 
           <div class="w-[326px] h-[326px] rounded bg-[#323030] my-4 group">
             <div class="relative overflow-hidden">
@@ -196,11 +189,9 @@ function openLink(link: any) {
 }
 
 function openDialog() {
-  console.log('hi1:', showDialog)
   showDialog.value = true;
 }
 function closeDialog() {
-  console.log('hi2:', showDialog)
   showDialog.value = false;
 }
 
