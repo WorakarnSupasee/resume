@@ -38,7 +38,7 @@
         </div>
       </div>
       <div class="mt-12 md:mt-32 pt-5 pb-5 px-5 md:px-15 lg:px-40 text-start bg-fixed"
-      style="background-image: linear-gradient(rgba(23, 22, 28, 0.5), rgba(23, 22, 28, 0.5)), url('/test.jpg'); background-size: cover;">
+      style="background-image: linear-gradient(rgba(23, 22, 28, 0.5), rgba(23, 22, 28, 0.5)), url('../test.jpg'); background-size: cover;">
         <h2 class="text-3xl text-[#FE805D] mb-3 md:mb-12 text-center">EDUCATION</h2>
         <div class="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
           <div class="flex md:contents flex-row-reverse">
