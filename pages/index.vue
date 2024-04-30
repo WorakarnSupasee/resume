@@ -18,19 +18,19 @@
     <div class="px-0">
       <div class="md:flex mt-0 pt-0 md:mt-12 md:pt-24 px-5 md:px-15 lg:px-40">
         <div class="md:w-2/4 flex justify-center">
-          <img src="/Pea.JPG" alt="" class="max-w-xs max-h-xs object-cover">
+          <img src="/Pea2.JPG" alt="" class="max-w-xs max-h-full object-cover rounded-lg">
         </div>
         <div class="md:w-2/4">
           <p class="mb-1 md:mb-5 text-[#FE805D] text-4xl md:text-6xl mt-2 md:mt-0">Worakarn Supasee</p>
           <p class="text-2xl">Software Engineer</p>
-          <p class="mt-2 md:mt-10 text-xl text-[#FE805D]" ref="about">"Hi! I'm Pea"</p>
+          <p class="mt-2 md:mt-10 text-xl text-[#FE805D] font-bold" ref="about">"Hi! I'm Pea"</p>
           <p>I recently graduated from Mae Fah Luang University with a degree in Software Engineering.
             My primary interest lies in frontend development, and I have gained practical experience through a
             three-month
             internship. I am eager to further enhance my skills and contribute to innovative projects within your
             company.
           </p>
-          <p class="text-3xl mt-6 text-[#FE805D]">About Me!</p>
+          <p class="text-3xl mt-6 text-[#FE805D] font-bold">About Me!</p>
           <p class="mt-2 text-xl">Workarn Supasee</p>
           <p class="text-xl">(Pea)</p>
           <p class="mt-2">Phone: 081-595-6079</p>
@@ -39,7 +39,7 @@
       </div>
       <div class="mt-12 md:mt-32 pt-5 pb-5 px-5 md:px-15 lg:px-40 text-start bg-fixed"
       style="background-image: linear-gradient(rgba(23, 22, 28, 0.5), rgba(23, 22, 28, 0.5)), url('./test.jpg'); background-size: cover;">
-        <h2 class="text-3xl text-[#FE805D] mb-3 md:mb-12 text-center">EDUCATION</h2>
+        <h2 class="text-3xl text-[#FE805D] mb-3 md:mb-12 text-center font-bold">EDUCATION</h2>
         <div class="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
           <div class="flex md:contents flex-row-reverse">
             <div class="relative p-4 mb-6 col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
@@ -79,7 +79,7 @@
       </div>
 
       <div class="pt-5 md:pt-32 pb-5 text-start px-5 md:px-15 lg:px-40" style="background-color: #1F222F;">
-        <h2 class="text-3xl text-[#FE805D] mb-3 md:mb-12 text-center">EXPERIENCE</h2>
+        <h2 class="text-3xl text-[#FE805D] mb-3 md:mb-12 text-center font-bold">EXPERIENCE</h2>
         <div class="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
           <div class="flex md:contents flex-row-reverse">
             <div class="relative p-4 mb-6 col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
@@ -103,7 +103,7 @@
       </div>
 
       <div class="pt-5 md:pt-32 pb-20 text-start px-5 md:px-15 lg:px-40" style="background-color: #1F222F;">
-        <h2 class="text-3xl text-[#FE805D]  mb-12 text-center" ref="skill">SKILL</h2>
+        <h2 class="text-3xl text-[#FE805D]  mb-12 text-center font-bold" ref="skill">SKILL</h2>
         <div class="grid grid-cols-2 md:grid-cols-5 gap-5 justify-items-center content-center">
           <!-- eslint-disable -->
           <div class="w-full h-full rounded bg-[#323030] py-4 my-4 px-2 content-center" v-for="item in skillList">
@@ -114,7 +114,7 @@
       </div>
 
       <div class="mt-12 text-start px-5 md:px-15 lg:px-40">
-        <h2 class="text-3xl text-[#FE805D]  mb-12 text-center" ref="work">RECENT WORKS</h2>
+        <h2 class="text-3xl text-[#FE805D]  mb-12 text-center font-bold" ref="work">RECENT WORKS</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-items-center">
 
           <div class="w-[326px] h-[326px] rounded bg-[#323030] my-4 group">
@@ -136,7 +136,7 @@
       </div>
 
       <div class="mt-32 text-start mb-20 px-5 md:px-15 lg:px-40">
-        <h2 class="text-3xl text-[#FE805D]  mb-12 text-center" ref="contact">CONTACT</h2>
+        <h2 class="text-3xl text-[#FE805D]  mb-12 text-center font-bold" ref="contact">CONTACT</h2>
         <div class="grid grid-cols-2 gap-4 justify-items-center">
           <div
             class="w-full h-full rounded-xl bg-[#323030] py-4 my-4 content-center border border-white border-2 hover:border-[#FE805D] hover:text-[#FE805D]"
