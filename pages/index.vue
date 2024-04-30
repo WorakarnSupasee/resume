@@ -167,7 +167,7 @@ const skillList = ref([{ name: 'HTML', image: '/icon/HTML.svg' },
 { name: 'Postman', image: '/icon/Postman.svg' },
 { name: 'Visual Studio Code', image: '/icon/vs-code.svg' }])
 
-const contactList = ref([{ name: 'Facebook', link: "https://www.facebook.com/pee.golden" },
+const contactList = ref([{ name: 'Facebook', link: "https://www.facebook.com/share/ZgwaWvaoMHXDqmhZ/?mibextid=qi2Omg" },
 { name: 'Instagram', link: "https://www.instagram.com/_.worakarn._/" },
 { name: 'Linkedin', link: "https://www.linkedin.com/in/worakarn-supasee-9a1728305/" },
 { name: 'Gitlab', link: "https://gitlab.com/worakarn.supa" }])
