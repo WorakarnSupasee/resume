@@ -118,10 +118,10 @@
                 2020 - 2024
               </h3>
               <h3 class="text-lg font-semibold lg:text-xl">University</h3>
-              <p class="mt-2 leading-6 font-bold" ref="experience">
+              <p class="mt-2 leading-6 font-bold">
                 Mae Fah Luang University.
               </p>
-              <p class="mt-2 leading-6 text-gray-300">
+              <p class="mt-2 leading-6 text-gray-300" ref="experience">
                 I chose to study Software Engineering because of my interest in
                 programming and the opportunity to collaborate on projects with
                 friends. Through this, I discovered my interest in front-end
@@ -136,7 +136,7 @@
         class="pt-5 md:pt-32 pb-5 text-start px-5 md:px-15 lg:px-40"
         style="background-color: #1f222f"
       >
-        <h2 class="text-3xl text-[#FE805D] mb-3 md:mb-12 text-center font-bold">
+        <h2 class="text-3xl text-[#FE805D] mb-3 md:mb-12 text-center font-bold" >
           EXPERIENCE
         </h2>
         <div class="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
@@ -145,7 +145,41 @@
               class="relative p-4 mb-6 col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto"
             >
               <h3 class="text-lg font-semibold lg:text-xl text-[#FE805D]">
-                15 Jan - 3 May 2024
+                6 June - 31 July (2023)
+              </h3>
+              <h3 class="text-lg font-semibold lg:text-xl">Hornbill Group</h3>
+              <p class="mt-2 leading-6 font-bold">
+                Frontend Developer (Intern)
+              </p>
+              <p class="mt-2 leading-6 text-gray-300">
+                I worked on a senior project with Hornbill Group or ISUZU Chiang
+                Rai, which was the final project of my university. The project
+                involved vehicle inspection, allowing me to learn about Vue.js
+                and real-world work, and teamwork.
+              </p>
+            </div>
+            <div class="relative col-start-5 col-end-6 mt-6 mr-7 md:mx-auto">
+              <div class="flex items-center justify-center w-6 h-full">
+                <div class="w-1 h-full bg-[#FE805D] rounded-t-full"></div>
+              </div>
+              <div
+                class="absolute w-6 h-6 -mt-3 bg-[#FE805D] rounded-full top-1"
+              ></div>
+            </div>
+          </div>
+
+          <div class="flex md:contents">
+            <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+              <div class="flex items-center justify-center w-6 h-full">
+                <div class="w-1 h-full bg-[#FE805D]"></div>
+              </div>
+              <div
+                class="absolute w-4 h-4 -mt-3 bg-[#FE805D] rounded-full left-1 top-1/3"
+              ></div>
+            </div>
+            <div class="relative p-4 my-6 col-start-6 col-end-10 mr-auto">
+              <h3 class="text-lg font-semibold lg:text-xl text-[#FE805D]">
+                15 Jan - 3 May (2024)
               </h3>
               <h3 class="text-lg font-semibold lg:text-xl">
                 Dudee-Indeed Co.,Ltd
@@ -161,14 +195,6 @@
                 company projects and became a key contributor in developing new
                 features for company's clients to use.
               </p>
-            </div>
-            <div class="relative col-start-5 col-end-6 mt-6 mr-7 md:mx-auto">
-              <div class="flex items-center justify-center w-6 h-full">
-                <div class="w-1 h-full bg-[#FE805D] rounded-t-full"></div>
-              </div>
-              <div
-                class="absolute w-6 h-6 -mt-3 bg-[#FE805D] rounded-full top-1"
-              ></div>
             </div>
           </div>
         </div>
@@ -277,10 +303,10 @@ const skillList = ref([
   { name: "Tailwin Css", image: "/icon/tailwind-css.svg" },
   { name: "VueJs", image: "/icon/vue.svg" },
   { name: "NuxtJs", image: "/icon/Nuxt.svg" },
+  { name: "PUG", image: "/icon/pugj-logo.svg" },
   { name: "Figma", image: "/icon/Figma.svg" },
   { name: "Gitlab", image: "/icon/GitLab.svg" },
   { name: "Postman", image: "/icon/Postman.svg" },
-  { name: "Visual Studio Code", image: "/icon/vs-code.svg" },
 ]);
 
 const contactList = ref([
