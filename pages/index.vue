@@ -51,9 +51,9 @@
           <p>
             I have just graduated from Mae Fah Luang University with a degree in
             Software Engineering. My main interest lies in frontend development,
-            and I have gained practical experience through a three-month
-            cooperative internship. I am eager to further develop my skills and
-            ready to be part of your company.
+            and I have gained practical experience through a cooperative
+            internship. I am eager to further develop my skills and ready to be
+            part of your company.
           </p>
           <p class="text-3xl mt-6 text-[#FE805D] font-bold">About Me!</p>
           <p class="mt-2 text-xl">Workarn Supasee</p>
@@ -118,9 +118,7 @@
                 2020 - 2024
               </h3>
               <h3 class="text-lg font-semibold lg:text-xl">University</h3>
-              <p class="mt-2 leading-6 font-bold">
-                Mae Fah Luang University.
-              </p>
+              <p class="mt-2 leading-6 font-bold">Mae Fah Luang University.</p>
               <p class="mt-2 leading-6 text-gray-300" ref="experience">
                 I chose to study Software Engineering because of my interest in
                 programming and the opportunity to collaborate on projects with
@@ -136,7 +134,7 @@
         class="pt-5 pb-5 text-start px-5 md:px-15 lg:px-40"
         style="background-color: #1f222f"
       >
-        <h2 class="text-3xl text-[#FE805D] mb-3 md:mb-12 text-center font-bold" >
+        <h2 class="text-3xl text-[#FE805D] mb-3 md:mb-12 text-center font-bold">
           EXPERIENCE
         </h2>
         <div class="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
