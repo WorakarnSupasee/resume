@@ -133,7 +133,7 @@
       </div>
 
       <div
-        class="pt-5 md:pt-32 pb-5 text-start px-5 md:px-15 lg:px-40"
+        class="pt-5 pb-5 text-start px-5 md:px-15 lg:px-40"
         style="background-color: #1f222f"
       >
         <h2 class="text-3xl text-[#FE805D] mb-3 md:mb-12 text-center font-bold" >
