@@ -296,12 +296,12 @@
 <script setup lang="ts">
 const skillList = ref([
   { name: "HTML", image: "/icon/HTML.svg" },
-  { name: "Javascript", image: "/icon/javascript.svg" },
   { name: "Css", image: "/icon/Css.svg" },
+  { name: "Javascript", image: "/icon/javascript.svg" },
+  { name: "Typescript", image: "/icon/typescript.svg" },
   { name: "Tailwin Css", image: "/icon/tailwind-css.svg" },
   { name: "VueJs", image: "/icon/vue.svg" },
   { name: "NuxtJs", image: "/icon/Nuxt.svg" },
-  { name: "PUG", image: "/icon/pugj-logo.svg" },
   { name: "Figma", image: "/icon/Figma.svg" },
   { name: "Gitlab", image: "/icon/GitLab.svg" },
   { name: "Postman", image: "/icon/Postman.svg" },
