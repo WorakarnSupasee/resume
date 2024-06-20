@@ -12,6 +12,7 @@
   "dependencies": {
     "@nuxt/image": "^1.6.0",
     "@nuxtjs/tailwindcss": "^6.11.4",
+    "aos": "^2.3.4",
     "nuxt": "^3.11.1",
     "serve": "^14.2.2",
     "vite-svg-loader": "^5.1.0",
@@ -19,6 +20,8 @@
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
-    "@nuxtjs/color-mode": "^3.3.3"
+    "@nuxtjs/color-mode": "^3.3.3",
+    "@types/aos": "^3.0.7",
+    "nuxt-aos": "^1.2.4"
   }
 }

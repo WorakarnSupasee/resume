@@ -5,7 +5,7 @@
         <div class="md:w-2/4">
           <p class="text-2xl">Worakarn Supasee</p>
         </div>
-        <div class="w-2/4 flex justify-between">
+        <div class="md:w-3/4 flex justify-between">
           <a class="cursor-pointer hover:text-[#FE805D]" @click="goto(about)"
             >About</a
           >
@@ -19,6 +19,11 @@
             @click="goto(experience)"
             >Experience</a
           >
+          <a
+            class="cursor-pointer hover:text-[#FE805D]"
+            @click="goto(skill)"
+            >Skill</a
+          >
           <a class="cursor-pointer hover:text-[#FE805D]" @click="goto(work)"
             >Work</a
           >
@@ -30,8 +35,8 @@
       <hr class="hidden md:flex mt-8" />
     </header>
     <div class="px-0">
-      <div class="md:flex mt-0 pt-0 md:mt-12 md:pt-24 px-5 md:px-15 lg:px-40">
-        <div class="md:w-2/4 flex justify-center">
+      <div class="md:flex mt-0 pt-0 md:mt-12 md:pt-24 px-5 md:px-15 lg:px-40" >
+        <div class="md:w-2/4 flex justify-center" data-aos="fade-right">
           <img
             src="/Pea.JPG"
             alt=""
@@ -39,30 +44,30 @@
           />
         </div>
         <div class="md:w-2/4">
-          <p
+          <p data-aos="fade-left"
             class="mb-1 md:mb-5 text-[#FE805D] text-4xl md:text-6xl mt-2 md:mt-0"
           >
             Worakarn Supasee
           </p>
-          <p class="text-2xl">Software Engineer</p>
-          <p class="mt-2 md:mt-10 text-xl text-[#FE805D] font-bold" ref="about">
+          <p data-aos="fade-left" class="text-2xl">Software Engineer</p>
+          <p data-aos="fade-left" class="mt-2 md:mt-10 text-xl text-[#FE805D] font-bold" ref="about">
             "Hi! I'm Pea"
           </p>
-          <p>
+          <p data-aos="fade-left">
             I have just graduated from Mae Fah Luang University with a degree in
             Software Engineering. My main interest lies in frontend development,
             and I have gained practical experience through a cooperative
             internship. I am eager to further develop my skills and ready to be
             part of your company.
           </p>
-          <p class="text-3xl mt-6 text-[#FE805D] font-bold">About Me!</p>
-          <p class="mt-2 text-xl">Workarn Supasee</p>
-          <p class="text-xl">(Pea)</p>
-          <p class="mt-2">Phone: 081-595-6079</p>
-          <p class="mt-2" ref="education">Email: worakarn.supa@gmail.com</p>
+          <p data-aos="fade-left" class="text-3xl mt-6 text-[#FE805D] font-bold">About Me!</p>
+          <p data-aos="fade-left" class="mt-2 text-xl">Workarn Supasee</p>
+          <p data-aos="fade-left" class="text-xl">(Pea)</p>
+          <p data-aos="fade-left" class="mt-2">Phone: 081-595-6079</p>
+          <p data-aos="fade-left" class="mt-2" ref="education">Email: worakarn.supa@gmail.com</p>
         </div>
       </div>
-      <div
+      <div 
         class="mt-12 md:mt-32 pt-5 pb-5 px-5 md:px-15 lg:px-40 text-start bg-fixed"
         style="
           background-image: linear-gradient(
@@ -73,29 +78,30 @@
           background-size: cover;
         "
       >
-        <h2 class="text-3xl text-[#FE805D] mb-3 md:mb-12 text-center font-bold">
+        <h2 class="text-3xl text-[#FE805D] mb-3 md:mb-12 text-center font-bold" data-aos="fade-up">
           EDUCATION
         </h2>
         <div class="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
           <div class="flex md:contents flex-row-reverse">
-            <div
+            <div 
+              
               class="relative p-4 mb-6 col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto"
             >
-              <h3 class="text-lg font-semibold lg:text-xl text-[#FE805D]">
+              <h3 class="text-lg font-semibold lg:text-xl text-[#FE805D]" data-aos="fade-right">
                 2014 - 2019
               </h3>
-              <h3 class="text-lg font-semibold lg:text-xl">HIGH SCHOOL</h3>
-              <p class="mt-2 leading-6 font-bold">
+              <h3 class="text-lg font-semibold lg:text-xl" data-aos="fade-right">HIGH SCHOOL</h3>
+              <p class="mt-2 leading-6 font-bold" data-aos="fade-right">
                 ChiangRai Municipality School 5 Denha
               </p>
-              <p class="mt-2 leading-6 text-gray-300">
+              <p class="mt-2 leading-6 text-gray-300" data-aos="fade-right">
                 In middle school, I studied in the science and mathematics
                 stream, while in high school, I pursued the computer science
                 stream.
               </p>
             </div>
-            <div class="relative col-start-5 col-end-6 mt-6 mr-7 md:mx-auto">
-              <div class="flex items-center justify-center w-6 h-full">
+            <div class="relative col-start-5 col-end-6 mt-6 mr-7 md:mx-auto" data-aos="fade-up">
+              <div class="flex items-center justify-center w-6 h-full" >
                 <div class="w-1 h-full bg-[#FE805D] rounded-t-full"></div>
               </div>
               <div
@@ -105,7 +111,7 @@
           </div>
 
           <div class="flex md:contents">
-            <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+            <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto" data-aos="fade-up">
               <div class="flex items-center justify-center w-6 h-full">
                 <div class="w-1 h-full bg-[#FE805D]"></div>
               </div>
@@ -114,12 +120,12 @@
               ></div>
             </div>
             <div class="relative p-4 my-6 col-start-6 col-end-10 mr-auto">
-              <h3 class="text-lg font-semibold lg:text-xl text-[#FE805D]">
+              <h3 class="text-lg font-semibold lg:text-xl text-[#FE805D]" data-aos="fade-left">
                 2020 - 2024
               </h3>
-              <h3 class="text-lg font-semibold lg:text-xl">University</h3>
-              <p class="mt-2 leading-6 font-bold">Mae Fah Luang University.</p>
-              <p class="mt-2 leading-6 text-gray-300" ref="experience">
+              <h3 class="text-lg font-semibold lg:text-xl" data-aos="fade-left">University</h3>
+              <p class="mt-2 leading-6 font-bold" data-aos="fade-left">Mae Fah Luang University.</p>
+              <p class="mt-2 leading-6 text-gray-300" ref="experience" data-aos="fade-left">
                 I chose to study Software Engineering because of my interest in
                 programming and the opportunity to collaborate on projects with
                 friends. Through this, I discovered my interest in front-end
@@ -134,7 +140,7 @@
         class="pt-5 pb-5 text-start px-5 md:px-15 lg:px-40"
         style="background-color: #1f222f"
       >
-        <h2 class="text-3xl text-[#FE805D] mb-3 md:mb-12 text-center font-bold">
+        <h2 class="text-3xl text-[#FE805D] mb-3 md:mb-12 text-center font-bold" data-aos="fade-up">
           EXPERIENCE
         </h2>
         <div class="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
@@ -142,21 +148,21 @@
             <div
               class="relative p-4 mb-6 col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto"
             >
-              <h3 class="text-lg font-semibold lg:text-xl text-[#FE805D]">
+              <h3 class="text-lg font-semibold lg:text-xl text-[#FE805D]" data-aos="fade-right">
                 6 June - 31 July (2023)
               </h3>
-              <h3 class="text-lg font-semibold lg:text-xl">Hornbill Group</h3>
-              <p class="mt-2 leading-6 font-bold">
+              <h3 class="text-lg font-semibold lg:text-xl" data-aos="fade-right">Hornbill Group</h3>
+              <p class="mt-2 leading-6 font-bold" data-aos="fade-right">
                 Frontend Developer (Intern)
               </p>
-              <p class="mt-2 leading-6 text-gray-300">
+              <p class="mt-2 leading-6 text-gray-300" data-aos="fade-right">
                 I worked on a senior project with Hornbill Group or ISUZU Chiang
                 Rai, which was the final project of my university. The project
                 involved vehicle inspection, allowing me to learn about Vue.js
                 and real-world work, and teamwork.
               </p>
             </div>
-            <div class="relative col-start-5 col-end-6 mt-6 mr-7 md:mx-auto">
+            <div class="relative col-start-5 col-end-6 mt-6 mr-7 md:mx-auto" data-aos="fade-up">
               <div class="flex items-center justify-center w-6 h-full">
                 <div class="w-1 h-full bg-[#FE805D] rounded-t-full"></div>
               </div>
@@ -166,8 +172,8 @@
             </div>
           </div>
 
-          <div class="flex md:contents">
-            <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+          <div class="flex md:contents" >
+            <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto" data-aos="fade-up">
               <div class="flex items-center justify-center w-6 h-full">
                 <div class="w-1 h-full bg-[#FE805D]"></div>
               </div>
@@ -176,16 +182,16 @@
               ></div>
             </div>
             <div class="relative p-4 my-6 col-start-6 col-end-10 mr-auto">
-              <h3 class="text-lg font-semibold lg:text-xl text-[#FE805D]">
+              <h3 class="text-lg font-semibold lg:text-xl text-[#FE805D]" data-aos="fade-left">
                 15 Jan - 3 May (2024)
               </h3>
-              <h3 class="text-lg font-semibold lg:text-xl">
+              <h3 class="text-lg font-semibold lg:text-xl" data-aos="fade-left">
                 Dudee-Indeed Co.,Ltd
               </h3>
-              <p class="mt-2 leading-6 font-bold">
+              <p class="mt-2 leading-6 font-bold" data-aos="fade-left">
                 Frontend Developer (Intern)
               </p>
-              <p class="mt-2 leading-6 text-gray-300">
+              <p class="mt-2 leading-6 text-gray-300" data-aos="fade-left">
                 During my internship, I learned about frontend development where
                 I acquired knowledge in using Vue.js, Tailwind CSS, and
                 integrating with APIs. I applied these skills in a mini-project
@@ -205,6 +211,7 @@
         <h2
           class="text-3xl text-[#FE805D] mb-12 text-center font-bold"
           ref="skill"
+          data-aos="fade-up"
         >
           SKILL
         </h2>
@@ -213,6 +220,7 @@
         >
           <!-- eslint-disable -->
           <div
+            data-aos="fade-up"
             class="w-full h-full rounded bg-[#323030] py-4 my-4 px-2 content-center"
             v-for="item in skillList"
           >
@@ -230,11 +238,13 @@
         <h2
           class="text-3xl text-[#FE805D] mb-12 text-center font-bold"
           ref="work"
+          data-aos="fade-up"
         >
           RECENT WORKS
         </h2>
         <div
           class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-items-center"
+          data-aos="fade-up"
         >
           <div class="w-[326px] h-[326px] rounded bg-[#323030] my-4 group">
             <div class="relative overflow-hidden">
@@ -271,10 +281,11 @@
         <h2
           class="text-3xl text-[#FE805D] mb-12 text-center font-bold"
           ref="contact"
+          data-aos="fade-up"
         >
           CONTACT
         </h2>
-        <div class="grid grid-cols-2 gap-4 justify-items-center">
+        <div class="grid grid-cols-2 gap-4 justify-items-center"  data-aos="fade-up">
           <div
             class="w-full h-full rounded-xl bg-[#323030] py-4 my-4 content-center border border-white border-2 hover:border-[#FE805D] hover:text-[#FE805D]"
             v-for="item in contactList"
@@ -323,6 +334,7 @@ const contactList = ref([
 const about = ref(null);
 const education = ref(null);
 const experience = ref(null);
+const skill = ref(null);
 const work = ref(null);
 const contact = ref(null);
 
