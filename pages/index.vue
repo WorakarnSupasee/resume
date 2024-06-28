@@ -88,7 +88,7 @@
               class="relative p-4 mb-6 col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto"
             >
               <h3 class="text-lg font-semibold lg:text-xl text-[#FE805D]" data-aos="fade-right">
-                2014 - 2019
+                2014 - 2020
               </h3>
               <h3 class="text-lg font-semibold lg:text-xl" data-aos="fade-right">HIGH SCHOOL</h3>
               <p class="mt-2 leading-6 font-bold" data-aos="fade-right">
